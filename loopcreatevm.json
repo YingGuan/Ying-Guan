@@ -4,9 +4,9 @@
   "parameters": {
     "adminUsername": {
       "type": "string",
-      "metadata": {
-        "description": "User name for the Virtual Machine."
-      }
+   #   "metadata": {
+   #    "description": "User name for the Virtual Machine."
+   #   }
     },
     "authenticationType": {
       "type": "string",

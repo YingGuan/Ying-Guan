@@ -55,11 +55,11 @@
 
         "NumberOfInstances": {
         "type": "int",
-        "defaultValue": 2,
-        "minValue": 1,
-        "maxValue": 10,
+        "defaultValue": 10,
+        "minValue": 10,
+        "maxValue": 400,
         "metadata": {
-        "description": "Number of VMs to provision,1-10"
+        "description": "Number of VMs to provision,10-400"
                 }
             },
   "variables": {
@@ -74,7 +74,7 @@
     "publicIPAddressName": "myPublicIP",
     "publicIPAddressType": "Dynamic",
     "vmName": "MyUbuntuVM",
-    "vmSize": "Standard_A1",
+    "vmSize": "Standard_DS4_v2",
     "virtualNetworkName": "MyVNET",
     "linuxConfiguration": {
       "disablePasswordAuthentication": true,
